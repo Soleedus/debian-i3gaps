@@ -36,8 +36,13 @@ chmod +x run.sh
 Then follow instructions, and when script finishes, type:
 `sudo reboot`
 
-comment out
+3. You will need to set GTK theme manually in Chrome.
+4. You may now comment out deb-src lines from your /etc/apt/sources.list
 
-#### Keybindings:
+#### Custom keybindings: ($mod = windows key)
+
+1. $mod+Return = Termite.
+2. $mod+p = Floating pavucontrol for audio settings.
+3. Printscreen key for screenshot (saves in ~/Pictures/ folder).
 
 #### Screenshots:
