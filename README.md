@@ -56,3 +56,6 @@ Then follow instructions, and when script finishes, type:
 3. Printscreen key for screenshot (saves in ~/Pictures/ folder).
 
 #### Screenshots:
+
+![screenshot01(Screenshots/2018-01-10-11:22:36-screenshot.png "Final effect")
+![screenshot02](Screenshots/2018-01-10-11:25:01-screenshot.png "Final effect")
