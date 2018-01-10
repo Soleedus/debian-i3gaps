@@ -23,6 +23,10 @@ Contrib and non-free components, needed for compiling stuff later on.
 14. Installs oh-my-zsh theme for zsh shell.
 15. Copy configs for i3, leafpad, ranger and termite.
 
+#### What it doesn't ?
+
+1. Network configuration.
+
 #### Installation:
 
 1. Head over to Debian website, download netinst Stretch ISO, create bootable USB, install Debian without any desktop environment (https://www.debian.org/CD/netinst/).
