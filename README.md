@@ -1,4 +1,6 @@
-# .dotfiles
+# debian-i3-from-scratch
 
-## Debian Stretch dotfiles, font rendering, i3 and more...
-### run.sh script transforms clean install of Debian Stretch (netinst) 
+### Aim of this project is to have a shell script that will transform clean install of Debian Stretch
+into fully working configured system.
+
+comment out
