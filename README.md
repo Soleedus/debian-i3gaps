@@ -1,3 +1,4 @@
 # .dotfiles
 
-Debian Stretch dotfiles including auto install shell script.
+## Debian Stretch dotfiles, font rendering, i3 and more...
+### run.sh script transforms clean install of Debian Stretch (netinst) 
