@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo dpkg --add-architecture i386
+
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install curl wget apt-transport-https dirmngr
