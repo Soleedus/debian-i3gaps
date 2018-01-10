@@ -228,3 +228,6 @@ exec_always feh --bg-scale /usr/share/wallpapers/wallpaper.jpg
 
 ### COMPOSITOR
 exec compton
+
+### FLOATING MODE FOR
+for_window [class="Pavucontrol"] floating enable
