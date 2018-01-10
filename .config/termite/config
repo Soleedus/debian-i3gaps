@@ -41,44 +41,44 @@ scrollback_lines = 10000
 [colors]
 
 # special
-foreground      = #c0c8c6
-foreground_bold = #c0c8c6
-cursor          = #c0c8c6
-#background     = #101111
+foreground      = #d7dee2
+foreground_bold = #d7dee2
+cursor          = #d7dee2
+#background      = #030404
 
-background = rgba(16, 17, 17, 0.95)
+background = rgba(3, 4, 4, 0.95)
 
 # black
-color0  = #1a1c1c
-color8  = #f2c3cf
+color0  = #060708
+color8  = #53b097
 
 # red
-color1  = #232524
-color9  = #f5d5b0
+color1  = #131517
+color9  = #b998dc
 
 # green
-color2  = #333635
-color10 = #86b65f
+color2  = #232729
+color10 = #e680ae
 
 # yellow
-color3  = #4a4d4c
-color11 = #6de2cf
+color3  = #3b4043
+color11 = #dea3bb
 
 # blue
-color4  = #666a69
-color12 = #e1c5ee
+color4  = #586064
+color12 = #51ae95
 
 # magenta
-color5  = #878e8c
-color13 = #e2c9ee
+color5  = #7b868b
+color13 = #7db9d2
 
 # cyan
-color6  = #afb6b5
-color14 = #6cb0da
+color6  = #a5b2b9
+color14 = #f3b885
 
 # white
-color7  = #dbe4e2
-color15 = #85e9d7
+color7  = #dde3e7
+color15 = #e57cab
 
 [hints]
 #font = Overpass Mono Light 10
