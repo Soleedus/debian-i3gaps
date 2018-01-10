@@ -27,7 +27,8 @@ Contrib and non-free components, needed for compiling stuff later on.
 
 1. Head over to Debian website, download netinst Stretch ISO, create bootable USB, install Debian without any desktop environment (https://www.debian.org/CD/netinst/).
 2. Login with your credentials, and run these commands:
-```git clone https://github.com/DebianFanboy/debian-i3gaps-from-scratch.git
+```
+git clone https://github.com/DebianFanboy/debian-i3gaps-from-scratch.git
 cd debian-i3gaps-from-scratch
 chmod +x run.sh
 ./run.sh
