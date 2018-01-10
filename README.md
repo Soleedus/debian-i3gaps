@@ -49,6 +49,12 @@ Then follow instructions, and when script finishes, type:
 4. You will need to set GTK theme manually in Chrome.
 5. You may now comment out deb-src lines from your /etc/apt/sources.list
 
+IMPORTANT!
+
+If you have problem logging in after running the script, it may be xorg.conf causing this, in this case do: 
+
+`sudo rm /etc/X11/xorg.conf`
+
 #### Custom keybindings: ($mod = windows key)
 
 1. $mod+Return = Termite.
