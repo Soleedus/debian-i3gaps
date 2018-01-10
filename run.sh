@@ -11,6 +11,12 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -f -y i3 suckless-tools i3blocks xorg devscripts file-roller zsh pcmanfm leafpad eog pulseaudio pavucontrol alsa-utils gdebi numix-gtk-theme numix-icon-theme screenfetch feh conky build-essential gtk2-engines-murrine gtk2-engines vim ranger caca-utils highlight atool w3m poppler-utils mediainfo compton gparted git python-pip libcanberra-gtk-module
 
+### lame way of making sure that dirs exist
+mkdir ~/.config/
+mkdir ~/.themes/
+mkdir ~/.fonts/
+
+
 ### zsh shell
 
 chsh -s $(which zsh)
@@ -29,7 +35,7 @@ rsync -a .themes/BrightNight ~/.themes/
 
 ### wallpaper
 
-rsync -a Pictures/Wallpapers/ ~/Pictures/Wallpapers/
+sudo rsync -a Pictures/Wallpapers/ /usr/share/wallpapers/
 
 ### xorg config with tear free option for intel
 
@@ -37,7 +43,7 @@ sudo rsync -a etc/X11/xorg.conf /etc/X11/
 
 ### fonts
 
-rsync -a .fonts/ ~/
+rsync -a .fonts ~/
 fc-cache
 
 ### infinality font rendering (osx option)
