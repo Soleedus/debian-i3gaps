@@ -23,7 +23,7 @@ Contrib and non-free components, needed for compiling stuff later on.
 14. Installs oh-my-zsh theme for zsh shell.
 15. Copy configs for i3, leafpad, ranger and termite.
 
-#### What it doesn't ?
+#### What it doesn't do ?
 
 1. Network configuration.
 
