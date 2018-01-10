@@ -220,14 +220,17 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+### COMPOSITOR
+exec compton
+
 # pavucontrol (audio settings)
 bindsym $mod+p exec pavucontrol
 
+### SCREENSHOT
+bindsym Print exec scrot ~/Pictures/%Y-%m-%d-%T-screenshot.png
+
 ### WALLPAPER
 exec_always feh --bg-scale /usr/share/wallpapers/wallpaper.jpg
-
-### COMPOSITOR
-exec compton
 
 ### FLOATING MODE FOR
 for_window [class="Pavucontrol"] floating enable
