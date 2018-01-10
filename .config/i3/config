@@ -224,7 +224,7 @@ mode "$mode_gaps_outer" {
 bindsym $mod+p exec pavucontrol
 
 ### WALLPAPER
-exec_always feh --bg-scale ~/Pictures/Wallpapers/wallpaper.jpg
+exec_always feh --bg-scale /usr/share/wallpapers/wallpaper.jpg
 
 ### COMPOSITOR
 exec compton
