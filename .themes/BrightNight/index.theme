@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=BrightNight
+Comment=Enjoy
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=BrightNight
+GtkTheme=BrightNight
+IconTheme=BrightNight
+MetacityTheme=BrightNight
