@@ -29,7 +29,7 @@ wget https://launchpadlibrarian.net/337311622/paper-icon-theme_1.4+r692~daily~ub
 sudo gdebi paper*.deb
 
 ### copying theme
-rsync -a .themes/BrightNight ~/.themes/
+rsync -a .themes/oomox-BrightNight ~/.themes/
 
 ### wallpaper
 sudo rsync -a Pictures/Wallpapers/ /usr/share/wallpapers/
