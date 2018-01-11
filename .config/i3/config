@@ -13,7 +13,7 @@ bindsym $mod+Return exec termite
 bindsym $mod+Shift+q kill
 
 ### DMENU
-bindsym $mod+d exec "dmenu_run -nf '#D3D3D3' -nb '#101111' -sb '#333635' -sf '#B3B3B2' -fn 'Overpass Mono Light-10' -p ' Debian:'"
+bindsym $mod+d exec "dmenu_run -nf '#D3D3D3' -nb '#101111' -sb '#333635' -sf '#B3B3B2' -fn 'Overpass Mono-10' -p ' Debian:'"
 
 # change focus
 bindsym $mod+j focus left
@@ -147,8 +147,7 @@ client.background       #FFFFFF
 
 bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	height 20
-	tray_output none
+	height 24
 	colors {
     background #101111
     statusline #FFFFFF
