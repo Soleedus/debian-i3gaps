@@ -3,6 +3,11 @@
 ### Aim of this project is to have a shell script that will transform clean install of Debian Stretch (netinst)
 ### into a fully working configured system.
 
+#### Screenshots:
+
+![screenshot01](Screenshots/2018-01-10-11:22:36-screenshot.png "Final effect")
+![screenshot02](Screenshots/2018-01-10-11:25:01-screenshot.png "Final effect")
+
 #### What it does ? (run.sh):
 
 1. Adds multi-arch support
@@ -61,7 +66,9 @@ If you have problem logging in after running the script, it may be xorg.conf cau
 2. $mod+p = Floating pavucontrol for audio settings.
 3. Printscreen key for screenshot (saves in ~/Pictures/ folder).
 
-#### Screenshots:
+#### Credits:
+i3-gaps and Termite shell scripts taken from:
 
-![screenshot01](Screenshots/2018-01-10-11:22:36-screenshot.png "Final effect")
-![screenshot02](Screenshots/2018-01-10-11:25:01-screenshot.png "Final effect")
+https://github.com/maestrogerardo/i3-gaps-deb
+
+https://github.com/Corwind/termite-install
