@@ -11,7 +11,7 @@
 3. Copy new sources.list to /etc/apt/, new sources.list uses "deb.debian.org" (Fast Server Select) service, and have included
 Contrib and non-free components, needed for compiling stuff later on.
 4. Installs zsh shell and sets it up as default shell.
-5. Downloads Google Chrome and installs it.
+5. Downloads Chromium and installs it.
 6. Downloads Paper icon theme and installs it.
 7. Copy custom GTK2/3 theme and sets it up as default.
 8. Sets wallpaper.
