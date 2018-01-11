@@ -46,7 +46,7 @@ Then follow instructions, and when script finishes, type:
 `sudo reboot`
 
 3. To start i3, type in `startx`
-4. You will need to set GTK theme manually in Chrome.
+4. You will need to set GTK theme manually in Chromium.
 5. You may now comment out deb-src lines from your /etc/apt/sources.list
 
 IMPORTANT!
