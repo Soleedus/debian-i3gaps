@@ -49,6 +49,7 @@ sh/./gaps.sh
 
 ### copying configs
 rsync -a .gtkrc-2.0 ~/
+rsync -a .xinitrc ~/
 rsync -a .config/ ~/.config/
 
 ### termite installer
