@@ -49,15 +49,8 @@ chmod +x run.sh
 Then follow instructions, and when script finishes, type:
 `sudo reboot`
 
-3. To start i3, type in `startx`
-4. You will need to set GTK theme manually in Chromium.
-5. You may now comment out deb-src lines from your /etc/apt/sources.list
-
-IMPORTANT!
-
-If you have problem logging in after running the script, it may be xorg.conf causing this, in this case do: 
-
-`sudo rm /etc/X11/xorg.conf`
+3. You will need to set GTK theme manually in Chromium.
+4. You may now comment out deb-src lines from your /etc/apt/sources.list
 
 #### Custom keybindings: ($mod = windows key)
 
