@@ -32,9 +32,6 @@ rsync -a .themes/oomox-BrightNight ~/.themes/
 ### wallpaper
 sudo rsync -a Pictures/Wallpapers/ /usr/share/wallpapers/
 
-### xorg config with tear free option for intel
-sudo rsync -a etc/X11/xorg.conf /etc/X11/
-
 ### fonts
 rsync -a .fonts ~/
 fc-cache
