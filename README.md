@@ -21,11 +21,10 @@ Contrib and non-free components, needed for compiling stuff later on.
 8. Sets wallpaper.
 9. Downloads newest version of i3-gaps and installs it.
 10. Compile and installs Termite terminal.
-11. Copy modified xorg.conf to /etc/X11/ for tear free desktop (Intel).
-12. Copy Overpass fonts.
-13. Compile and installs Infinality for OSX looking font rendering.
-14. Installs oh-my-zsh theme for zsh shell.
-15. Copy configs for i3, leafpad, ranger and termite.
+11. Copy Overpass fonts.
+12. Compile and installs Infinality for OSX looking font rendering.
+13. Installs oh-my-zsh theme for zsh shell.
+14. Copy configs for i3, leafpad, ranger and termite.
 
 #### What it doesn't do ?
 
