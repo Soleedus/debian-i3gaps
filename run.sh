@@ -26,7 +26,7 @@ mkdir ~/.fonts/
 chsh -s $(which zsh)
 
 ### paper icons
-wget https://launchpadlibrarian.net/337311622/paper-icon-theme_1.4+r692~daily~ubuntu16.04.1_all.deb
+wget https://launchpad.net/~snwh/+archive/ubuntu/pulp/+files/paper-icon-theme_1.4+r696~daily~ubuntu16.04.1_all.deb
 sudo gdebi paper*.deb
 
 ### copying theme
