@@ -29,6 +29,14 @@ chsh -s $(which zsh)
 wget https://launchpad.net/~snwh/+archive/ubuntu/pulp/+files/paper-icon-theme_1.4+r696~daily~ubuntu16.04.1_all.deb
 sudo gdebi paper*.deb
 
+### qutebrowser
+wget http://ftp.us.debian.org/debian/pool/main/p/pypeg2/python3-pypeg2_2.15.2-2_all.deb
+wget http://ftp.us.debian.org/debian/pool/main/q/qutebrowser/qutebrowser_1.6.1-2_all.deb
+wget http://ftp.us.debian.org/debian/pool/main/q/qutebrowser/qutebrowser-qtwebengine_1.6.1-2_all.deb
+wget http://ftp.us.debian.org/debian/pool/main/q/qutebrowser/qutebrowser-qtwebkit_1.6.1-2_all.deb
+sudo gdebi python3-pypeg2_*_all.deb
+sudo gdebi qutebrowser*.deb
+
 ### copying theme
 rsync -a .themes/oomox-BrightNight ~/.themes/
 
