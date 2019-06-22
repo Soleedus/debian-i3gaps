@@ -12,7 +12,7 @@ sudo rsync -a etc/apt/sources.list /etc/apt/
 sudo apt update && sudo apt upgrade -y
 
 ### installing packages
-sudo apt install -f -y i3 suckless-tools i3blocks xorg software-properties-common chromium fonts-font-awesome fonts-roboto devscripts file-roller zsh pcmanfm leafpad pulseaudio pavucontrol alsa-utils gdebi numix-gtk-theme screenfetch feh build-essential gtk2-engines-murrine gtk2-engines vim ranger caca-utils highlight atool w3m poppler-utils mediainfo compton python-pip libcanberra-gtk-module
+sudo apt install -f -y i3 suckless-tools i3blocks xorg software-properties-common fonts-font-awesome fonts-roboto devscripts file-roller zsh pcmanfm leafpad pulseaudio pavucontrol alsa-utils gdebi numix-gtk-theme screenfetch feh build-essential gtk2-engines-murrine gtk2-engines vim ranger caca-utils highlight atool w3m poppler-utils mediainfo compton python-pip libcanberra-gtk-module
 
 ### creating dirs like "Pictures", "Downloads" etc.
 xdg-user-dirs-update
